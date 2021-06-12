@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+}
+
+.heading{
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    background-size: contain;
+    padding: 0rem 5rem 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+}
+
+.huddle-img{
+    height: 60%;
+}
+
+.tryButton{
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 75px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.text{
+    width: 60%;
+    float: left;
+}
+
+.text > p {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+}
+
+.startButton{
+    width: 80%;
+    height: 50px;
+    font-size: 14px;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.main-img > img {
+    width: 70%;
+    float: right;
+}
+
+.middle{
+    margin: 10rem 12rem 2rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    padding: 2rem;
+    margin-bottom: 3rem ;
+}
+
+.card-text{
+    width: 360px;
+    font-size: 14px;
+    margin-right: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(100, 100, 111,)
+}
+
+.card-text > p {
+    margin-top: 10px;
+    width: 420px;
+    color: hsl(208, 11%, 55%);
+}
+
+.card-img{
+    width: 320px;
+}
+
+.mini-card{
+    max-width: 700px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3rem 4rem;
+    margin: auto;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateY(90px);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(192, 100%, 9%);
+    padding: 7rem 0rem 5rem;
+    color: #fff;
+}
+
+.footerLocation{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.footerLocation > div{
+    display: flex;
+    margin: 1rem;
+}
+
+.footerLocation > div > img {
+    margin-right: 2rem;
+}
+
+.footerAbout{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.footerCareer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+@media (max-width: 992px){
+    .huddle-img{
+        height: 60%;
+    }
+
+    .navbar{
+        padding: 3rem 0 2rem;
+    }
+
+    .tryButton{
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .text{
+        width: 110%;
+        font-size: 14px;
+    }
+
+    .text > p {
+        width: 95%;
+    }
+
+    .startButton {
+        width: 60%;
+        height: 40px;
+        font-size: 12px;
+    } 
+
+    .main{
+        margin: 2rem 0;
+    }
+
+    .main-img > img {
+        width: 90%;
+        float: right;
+    }
+    
+    .middle {
+        margin: 8rem 4rem 0rem;
+    }
+
+    .card{
+        margin: 2rem ;
+    }
+
+    .card-text{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .card-text > p {
+        margin-top: 8px;
+        width: 300px;
+        color: hsl(208, 11%, 55%);
+    }
+
+    .card-img{
+        width: 280px;
+    }
+
+    .mini-card{
+        width: 520px;
+        height: 180px;
+        font-size: 12px;
+        transform: translateY(60px);
+    }
+
+    footer{
+        font-size: 16px;
+        padding: 7rem 3rem 5rem;
+    }
+}
+
+@media (max-width: 600px){
+    .heading{
+        margin: 0;
+        padding: 1rem 1rem 0;
+        text-align: center;
+    }
+
+    .huddle-img{
+        height: 20px;
+    }
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    .tryButton{
+        width: 90px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .text{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .text > p {
+        font-size: 14px;
+    }
+
+    .startButton {
+        width: 90%;
+        height: 40px;
+        font-size: 12px;
+        margin-bottom: 3rem;
+    } 
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+        padding-bottom: 2rem ;
+    }
+
+    .main-img > img {
+        float: initial;
+    }
+    
+    .middle {
+        margin: 0;
+    }
+
+    .card{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: space-evenly;
+        margin: 1rem ; 
+        padding: 2rem ;
+    }
+
+    .card-text{
+        font-size: 12px;
+        margin: 1rem 0 0;
+    }
+
+    .card-img{
+        width: 240px;
+        margin-bottom: 1rem;
+    }
+
+    .mini-card{
+        width: 320px;
+        height: 110px;
+        font-size: 10px;
+        transform: translateY(40px);
+    }
+
+    .mini-card > h1 {
+        transform: translateY(-40px);
+    }
+
+    .mini-startButton{
+        margin: 15px auto;
+        height: 30px;
+        font-size: 12px;
+        transform: translateY(-40px);
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem auto;
+    }
+
+    
+    .footerLocation{
+        margin: auto;
+    }
+    
+    .footerAbout{
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .footerCareer{
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .footerIcons {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+
